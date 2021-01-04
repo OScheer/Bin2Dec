@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        supportActionBar!!.setDisplayShowTitleEnabled(false)
+        supportActionBar!!.hide()
 
         inputText.validate("No Binary Number") { input -> input.isValidBinary() }
 
